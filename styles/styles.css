@@ -1,0 +1,696 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    padding-left: 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-left: 0;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+p {
+    letter-spacing: 0.1rem;
+    line-height: 1.7rem;
+}
+
+.termekkepek {
+    width: 12rem;
+    height: 12rem;
+}
+
+.nagybekezdes {
+    padding-left: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    color: #565656;
+    letter-spacing: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.szamozas {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #765038;
+    font-size: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+
+}
+
+
+.hatterkep1 {
+    background-image: url(../Képek/image-hero-coffeepress.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.hatterkep2 {
+    background-image: url(../Képek/image-hero-whitecup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 8rem 7rem;
+}
+
+.hatterkep3 {
+    background-image: url(../Képek/image-hero-blackcup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 8rem 7rem;
+}
+
+.hatterkep4 {
+    background-image: url(../Képek/Kapcsolat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 8rem 7rem;
+}
+
+.hatter_fekete {
+    background-image: url(../Képek/rendeles/bg-steps.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    padding: 6rem 2.5rem;
+    color: white;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+
+.hatterkep_zold {
+    background-image: url(../Képek/image-hero-coffeepress.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 8rem 7rem;
+}
+
+.nagycim {
+    color: white;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+pre {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nagybejegyzes {
+    color: white;
+    margin-right: 50%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: 1.25rem;
+}
+
+.rendelesgomb1 {
+    border-radius: 8px;
+    border-style: none;
+    background-color: #689f38;
+    color: white;
+    letter-spacing: 1.5px;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.rendelesgomb2 {
+    border-radius: 8px;
+    border-style: none;
+    background-color: #689f38;
+    color: white;
+    letter-spacing: 1.5px;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2.5rem;
+}
+
+.rendelesgomb1:hover {
+    background-color: #7cb342;
+}
+
+.rendelesgomb2:hover {
+    background-color: #7cb342;
+}
+
+.footer_icons {
+    width: 1rem;
+}
+
+figure {
+    margin: 0;
+    display: inline-block;
+    width: 40rem;
+    display: inline-block;
+}
+
+figcaption {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+video {
+    width: 40rem;
+    display: inline-block;
+}
+
+aside {
+    float: right;
+    width: 40rem;
+}
+
+.orszag_logo {
+    width: 3rem;
+    text-align: center;
+}
+
+
+table {
+    margin: auto;
+    vertical-align: middle;
+    border-spacing: 10rem 1rem;
+}
+
+caption {
+    font-weight: bold;
+}
+
+pre {
+    text-align: left;
+    white-space: pre-line;
+  }
+
+
+.leiras {
+    width: 0.75rem;
+}
+
+.valasztasok {
+    display: inline-block;
+    margin: 1rem 5rem 5rem 0;
+    vertical-align: top;
+}
+
+legend {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    display: inline-block;
+}
+
+
+label, input {
+    margin: 2rem 1rem 1rem 0rem;
+}
+
+.footerlogo {
+    width: 1.5rem;
+    padding-right: 0.5rem;
+
+}
+
+footer {
+    display: table;
+    width: 100%;
+    background-color: burlywood;
+    height: 5rem;
+    margin-top: 10rem;
+}
+
+
+.footeritem1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.footermenu {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.footerlogos {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.footeritem {
+    margin-right: 2.5rem;
+}
+
+.footerceg {
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    color: white;
+}
+
+.footerlink {
+    text-decoration: none;
+    color: white;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+nav ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    background-color: burlywood;
+    padding: 1.5rem;
+    color: white;
+    margin: 0;
+}
+
+nav li a:hover {
+    background-color: 	#b8813d;
+    color: white;
+}
+
+nav li a.active {
+    background-color: #765038;
+    color: white;
+}
+
+@media screen and (min-width: 992px){
+
+
+    nav {
+        height: 7rem;
+        overflow: hidden;
+    }
+
+    
+    nav ul li {
+        display: inline-block;
+        line-height: 7rem;
+    }
+
+
+    nav ul {
+        float: right;
+        background-color: burlywood;
+        margin-right: 1.25rem;
+ 
+    }
+
+    nav li a {
+        padding: 0 1rem;
+    }
+
+
+}
+
+
+.logo {
+    width: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.cegnev {
+    display: inline;
+    padding-left: 0.5rem;
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+    letter-spacing: 0.25rem;
+    font-weight: bold;
+
+}
+
+.cegmenu {
+    padding-left: 2.5rem;
+    color: white;
+    text-decoration: none;
+    line-height: 7rem;
+    margin: 0;
+}
+
+a.cegmenu:hover {
+    background-color: burlywood;
+}
+
+nav {
+    background-color: burlywood;
+    display: block;
+}
+
+.rendeles_section {
+    margin-bottom: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'menet1 menet2 menet3';
+}
+
+
+.rendeles_menete1 {
+    grid-area: menet1;
+    margin-right: 5rem;
+}
+.rendeles_menete2 {
+    grid-area: menet2;
+    margin-right: 5rem;
+}
+.rendeles_menete3 {
+    grid-area: menet3;
+    margin-right: 5rem;
+}
+
+
+.termekeink {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'termekfocim termekfocim termekfocim termekfocim'
+    'termek1 termek2 termek3 termek4';
+    text-align: center;
+    margin: 4rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+
+.termekleiras {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.termekfocim {
+    grid-area: termekfocim;
+    margin: 2rem 0rem;
+    padding-bottom: 2rem;
+    padding-left: 0;
+    padding-top: 3rem;
+}
+
+.GranEspresso {
+    grid-area: termek1;
+}
+
+.Planalto {
+    grid-area: termek2;
+}
+
+.Piccollo {
+    grid-area: termek3;
+}
+
+.Danche {
+    grid-area: termek4;
+}
+
+.miertminket {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'zold1 zold2 zold3';
+    text-align: center;
+    margin: 4rem;
+    margin-bottom: 0;
+}
+
+
+.hatter_zold1 {
+    background-color: #689f38;
+    color: white;
+    border-radius: 8px;
+    grid-area: zold1;
+    padding: 5rem 2rem;
+    margin: 2rem;
+    margin-top: -10rem;
+}
+
+.hatter_zold2 {
+    background-color: #689f38;
+    color: white;
+    border-radius: 8px;
+    grid-area: zold2;
+    padding: 5rem 2rem;
+    margin: 2rem;
+    margin-top: -10rem;
+}
+
+.hatter_zold3 {
+    background-color: #689f38;
+    color: white;
+    border-radius: 8px;
+    grid-area: zold3;
+    padding: 5rem 2rem;
+    margin: 2rem;
+    margin-top: -10rem;
+}
+
+
+@media screen and (max-width: 992px) {
+    .termekeink {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'termekfocim termekfocim'
+        'termek1 termek2'
+        'termek3 termek4';
+    }
+
+    .miertminket {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'zold1'
+        'zold2'
+        'zold3';
+    }
+
+    .hatter_zold1,.hatter_zold2,.hatter_zold3 {
+        margin-bottom: 11rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .hatter_zold_oszlop {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-areas: 
+        'miertminketkep miertminketszoveg';
+    }
+
+    .miertminketkep {
+        grid-area: miertminketkep;
+        align-self: center;
+        margin: auto;
+    }
+    
+    .miertminketszoveg {
+        grid-area: miertminketszoveg;
+        text-align: left;
+    }
+
+    .footermenu {
+        display: none;
+    }
+
+    .termekeink {
+        margin: auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    h2 {
+        padding-top: 3rem;
+        padding-left: 0;
+    }
+
+    .hatter_fekete {
+        padding-bottom: 10rem;
+    }
+
+    .rendeles_menete1 {
+        grid-area: menet1;
+        margin-right: 1rem;
+    }
+    .rendeles_menete2 {
+        grid-area: menet2;
+        margin-right: 1rem;
+    }
+    .rendeles_menete3 {
+        grid-area: menet3;
+        margin-right: 1rem;
+    }
+
+    .nagybekezdes {
+        margin-top: -8rem;
+        margin-bottom: -1rem;
+    }
+
+    .sortores {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .termekeink {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'termekfocim'
+        'termek1'
+        'termek2'
+        'termek3'
+        'termek4';
+    }
+
+    .hatter_zold1,.hatter_zold2,.hatter_zold3 {
+        margin-bottom: 11rem;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hatter_zold_oszlop {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'miertminketkep'
+        'miertminketszoveg';
+    }
+
+    .miertminketszoveg {
+        text-align: center;
+    }
+
+    .nagycim {
+        text-align: center;
+        margin: auto;
+    }
+    .nagybejegyzes {
+        text-align: center;
+        margin: auto;
+    }
+
+    pre {
+        text-align: center;
+        margin: auto;
+    }
+
+    a.rendelesgomb {
+        margin: auto;
+        display: block;
+        width: 30%;
+        text-align: center;
+    }
+
+    h1,h2{
+        text-align: center;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        text-align: center;
+        margin: auto;
+    }
+
+    .focim {
+        display: none;
+    }
+
+    .termekeink {
+        margin: auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    h2 {
+        padding-top: 3rem;
+        padding-left: 0;
+    }
+
+    .rendelesgomb2 {
+        margin: auto;
+        display: block;
+        width: 20%;
+        text-align: center;
+    }
+
+    .sortores {
+        display: inline;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .nagybekezdes {
+        margin-top: -9rem;
+        margin-bottom: -2rem;
+    }
+
+    .rendeles_section {
+        margin-bottom: 3rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'menet1'
+        'menet2'
+        'menet3';
+    }
+    
+    
+    .rendeles_menete1 {
+        margin-right: 0rem;
+    }
+    .rendeles_menete2 {
+        margin-right: 0rem;
+    }
+    .rendeles_menete3 {
+        margin-right: 0rem;
+    }
+
+}

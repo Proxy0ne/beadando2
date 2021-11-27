@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Képek/favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="styles/nyomt.css">
+    <title>Rendelés</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="cegmenu"><img class="logo" src="Képek/logo.png" alt="Logo" /><p class="cegnev" lang="en">COFFEEGREEN</p></a>
+        <ul>
+            <li><a href="index.html">KEZDŐOLDAL</a></li>
+            <li><a href="rolunk.html">RÓLUNK</a></li>
+            <li><a class="active" href="rendeles.html">RENDELÉS</a></li>
+            <li><a href="kapcsolat.html">KAPCSOLAT</a></li>
+        </ul>
+      </nav>
+      <h1 class="focim">Rendelés</h1>
+      <div class="hatterkep3">
+        <h1 class="nagycim">Rendelés összeállítása</h1>
+        <p class="nagybejegyzes">
+          Készítsen előfizetési tervet, amely a legjobban megfelel az Ön
+          igényeinek. A legjobb kézműves kávékat kínáljuk a világ minden tájáról
+          frissen házhoz szállítva.
+        </p>
+      </div>
+    </header>
+
+    <section class="hatter_fekete">
+      <article class="rendeles_menete">
+        <h2 class="szamozas">01</h2>
+        <h3>Kávé kiválasztása</h3>
+        <p>
+          Válasszon a folyamatosan bővülő kézműves kávé kínálatunkból. Babjaink
+          etikus eredetűek, és tisztességes árat fizetünk értük. Minden hónapban új
+          kávék vannak minden profilban, amelyeket kipróbálhat.
+        </p>
+      </article>
+  
+      <article class="rendeles_menete">
+        <h2 class="szamozas">02</h2>
+        <h3>Ütemterv megadása</h3>
+        <p>
+          Testre szabhatja rendelési gyakoriságát, mennyiségét, még a pörkölés
+          stílusát és az őrlés típusát is. Szüneteltesse, hagyja ki vagy törölje
+          előfizetését elkötelezettség nélkül online portálunkon keresztül.
+        </p>
+      </article>
+  
+      <article class="rendeles_menete">
+        <h2 class="szamozas">03</h2>
+        <h3>Vedd át és élvezd!</h3>
+        <p>
+          48 órán belül kiszállítjuk csomagját, frissen pörkölve. Dőljön hátra, és
+          élvezze a díjnyertes, világszínvonalú kávékat, amelyek különleges
+          kóstolási élmény nyújtanak.
+        </p>
+      </article>
+    </section>
+
+    <form method="post" action="mailto:gipsz@jakab.hu">
+
+      <fieldset>
+
+        <legend>Hogyan issza a kávéját ön?</legend>
+    
+        <article class="valasztasok">
+          <input type="radio" name="hogyan_issza" id="szemeskave" value="szemeskave" checked>
+          <label for="szemeskave">Szemeskávé<br><p class="leiras">A legjobb választás, ha szeretné a teljes érzéki élményt.</p></label>
+        </article>
+
+        <article class="valasztasok">
+          <input type="radio" name="hogyan_issza" id="kapszula" value="kapszula">
+          <label for="kapszula">Kapszula<br><p class="leiras">Kompatibilis a <span lang="en">Nespresso</span> készülékekkel és hasonló termékekkel.</p></label>
+        </article>
+
+        <article class="valasztasok">
+          <input type="radio" name="hogyan_issza" id="filter" value="filter">
+          <label for="filter">Filter<br><p class="leiras">Szűrő Felöntési vagy csepegtetési módszerekhez, például <span lang="en">Aeropress</span>.</p></label>
+        </article>
+
+        <article class="valasztasok">
+          <input type="radio" name="hogyan_issza" id="eszpresszo" value="eszpresszo">
+          <label for="eszpresszo">Eszpresszó<br><p class="leiras">Sűrű és finomra őrölt bab intenzív, ízletes élményért.</p></label>
+        </article>
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend>Milyen típusú kávét szokott inni?</legend>
+    
+        <article class="valasztasok">
+          <input type="radio" name="milyen_tipusu" id="single_origin" value="single_origin" checked>
+          <label for="single_origin"><span lang="en">„Single Origin”</span><br><p class="leiras">Különleges, kiváló minőségű kávé, ami egy adott családi termőterület szerint szelektált.</p></label>
+        </article>
+
+        <article class="valasztasok">
+          <input type="radio" name="milyen_tipusu" id="decaf" value="decaf">
+          <label for="decaf"><span lang="en">„Decaf”</span><br><p class="leiras">A legjobb választás, ha szeretné a teljes érzéki élményt.</p></label>
+        </article>
+
+        <article class="valasztasok">
+          <input type="radio" name="milyen_tipusu" id="blend" value="blend">
+          <label for="blend"><span lang="en">„Blend”</span><br><p class="leiras">Keverék kávék, vagyis akár a világ különböző pontjain lévő ültetvényekről összeválogatják a legtökéletesebb kávészemeket a mesteri keverékek elkészítéséhez.</p></label>
+        </article>
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend>Mennyit szeretne rendelni?</legend>
+    
+        <article class="valasztasok">
+          <input type="radio" name="mennyit" id="250g" value="250g" checked>
+          <label for="250g">250g<br><p class="leiras">Tökéletes egyszemélyes fogyasztáshoz. Körülbelül 12 csészének felel meg.</p></label>
+        </article>
+
+        <article class="valasztasok">
+          <input type="radio" name="mennyit" id="500g" value="500g">
+          <label for="500g">500g<br><p class="leiras">Tökéletes lehetőség egy pár számára. Körülbelül 24 csészének felel meg.</p></label>
+        </article>
+
+        <article class="valasztasok">
+          <input type="radio" name="mennyit" id="1000g" value="1000g">
+          <label for="1000g">1000g<br><p class="leiras">Tökéletes irodákhoz és rendezvényekhez. Körülbelül 48 csészének felel meg.</p></label>
+        </article>
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend>Milyen gyakran szállítsuk ki az adott terméket?</legend>
+    
+        <article class="valasztasok">
+          <input type="radio" name="milyen_gyakran" id="minden_heten" value="minden_heten" checked>
+          <label for="minden_heten">Minden héten<br><p class="leiras">Tartalmazza az első osztályú ingyenes szállítást.</p></label>
+        </article>
+
+        <article class="valasztasok">
+          <input type="radio" name="milyen_gyakran" id="minden_masodik_heten" value="minden_masodik_heten">
+          <label for="minden_masodik_heten">Minden második héten<br><p class="leiras">Tartalmazza az ingyenes elsőbbségi szállítást.</p></label>
+        </article>
+
+        <article class="valasztasok">
+          <input type="radio" name="milyen_gyakran" id="minden_honapban" value="minden_honapban">
+          <label for="minden_honapban">Minden hónapban<br><p class="leiras">Tartalmazza az ingyenes elsőbbségi szállítást.</p></label>
+        </article>
+
+      </fieldset>
+      
+      <input type="submit" value="Tovább">
+      <input type="reset" value="Törlés">
+  
+    </form>
+
+    <footer>
+      <div class="footeritem1">
+        <a href="index.html" class="footerceg"><img class="footerlogo" src="Képek/logo.png" alt="Logo"/><span lang="en">COFFEEGREEN</span></a>
+      </div>
+
+      <div class="footermenu">
+        <a class="footerlink" href="index.html">KEZDŐOLDAL</a>
+        <a class="footerlink" href="rolunk.html">RÓLUNK</a>
+        <a class="footerlink" href="rendeles.html">RENDELÉS</a>
+        <a class="footerlink" href="kapcsolat.html">KAPCSOLAT</a>
+      </div>
+
+      <div class="footerlogos">
+        <a class="footeritem" href="https://www.facebook.com/"><img class="footer_icons" src="Képek/facebook-square-brands.svg" alt="Facebook"></a>
+        <a class="footeritem" href="https://twitter.com/?lang=hu"><img class="footer_icons" src="Képek/twitter-square-brands.svg" alt="Twitter"></a>
+        <a class="footeritem" href="https://www.instagram.com/"><img class="footer_icons" src="Képek/instagram-brands.svg" alt="Instagram"></a>
+        <a class="footeritem" href="https://myaccount.google.com/profile"><img class="footer_icons" src="Képek/google-plus-square-brands.svg" alt="Google+"></a>
+      </div>
+</footer>
+    
+  </body>
+</html>
